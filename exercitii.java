@@ -78,6 +78,15 @@ public class exercitii {
 		System.out.println("\n");
 		
 		
+		//problema5
+		System.out.println("Problema5:\n");
+		System.out.println("n= ");
+		int n = inputObj.nextInt();
+		int sum = 0;
+		int i;
+		for(i = 1; i <= n; i++)
+			sum+=i;
+		System.out.println(sum + "\n");
 		
 	}
 
