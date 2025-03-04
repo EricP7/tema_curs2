@@ -20,7 +20,28 @@ public class exercitii {
 			System.out.println("INVALID\n");
 		
 		//problema2
-
+		System.out.println("Problema2:\n");
+		System.out.println("Scrie un numar: ");
+		int nr1Prob2 = inputObj.nextInt();
+		switch(nr1Prob2) {
+		case 1:
+			System.out.println("UNU");
+			break;
+		case 2:
+			System.out.println("DOI");
+			break;
+		case 3:
+			System.out.println("TREI");
+			break;
+		case 4:
+			System.out.println("PATRU");
+			break;
+		case 5:
+			System.out.println("CINCI");
+			break;
+		default:
+			System.out.println("INVALID");
+		}
 		
 	}
 
