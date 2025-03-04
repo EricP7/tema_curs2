@@ -10,9 +10,9 @@ public class exercitii {
 
 		Scanner inputObj = new Scanner(System.in);
 		System.out.println("scrie un numar: ");
-		int nr1Prob1 = inputObj.nextInt();
-		if(nr1Prob1 >= 1 && nr1Prob1 <= 10)
-			if(nr1Prob1 > 5)
+		int nr1P1 = inputObj.nextInt();
+		if(nr1P1 >= 1 && nr1P1 <= 10)
+			if(nr1P1 > 5)
 				System.out.println("ADMIS\n");
 			else
 				System.out.println("RESPINS\n");
@@ -22,8 +22,8 @@ public class exercitii {
 		//problema2
 		System.out.println("Problema2:\n");
 		System.out.println("Scrie un numar: ");
-		int nr1Prob2 = inputObj.nextInt();
-		switch(nr1Prob2) {
+		int nr1P2 = inputObj.nextInt();
+		switch(nr1P2) {
 		case 1:
 			System.out.println("UNU");
 			break;
@@ -40,8 +40,27 @@ public class exercitii {
 			System.out.println("CINCI");
 			break;
 		default:
-			System.out.println("INVALID");
+			System.out.println("INVALID");	
 		}
+		System.out.println("\n");
+		
+		//problema3
+		System.out.println("Problema3\n");
+		System.out.println("scrie primul numar: ");
+		int nr1P3 = inputObj.nextInt();
+		System.out.println("scrie al doilea numar: ");
+		int nr2P3 = inputObj.nextInt();
+		
+		if((nr1P3 + nr2P3) % 2 == 0)
+			if(nr1P3 % 2 == 0)
+				System.out.println((nr1P3 + nr2P3) / 2);
+			else
+				System.out.println(nr1P3 * nr2P3);
+		else
+			System.out.println(nr1P3 + nr2P3);
+		
+		System.out.println("\n");
+		
 		
 	}
 
