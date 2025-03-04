@@ -97,6 +97,17 @@ public class exercitii {
 		for(i = 1; i <= n; i+=2)
 			sum+=i;
 		System.out.println(sum + "\n");
-	}
+		
+		//problema7
+		System.out.println("Problema7:\n");
+		System.out.println("n= ");
+		n = inputObj.nextInt();
+		sum = 0;
+		for(i = 1; i<=n; i++)
+			sum+=i;
+		System.out.println(sum/i);
+		
+		
+		}
 
 }
