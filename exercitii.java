@@ -108,6 +108,30 @@ public class exercitii {
 		System.out.println(sum/i);
 		
 		
+		//problema8
+		System.out.println("Problema8:\n");
+		System.out.println("n= ");
+		n = inputObj.nextInt();
+		int fact = 1;
+		for(i = 1; i<=n; i++)
+			fact*=i;
+		System.out.println(fact);
+		
+		
+		//problema9
+		System.out.println("Problema9:\n");
+		System.out.println("n= ");
+		n = inputObj.nextInt();
+		int m = 0;
+		if(n!=0 && n!=1)
+			for(i = 2; i<=n/2; i++)
+				if(n % i == 0)
+					m++;
+		if(m==0)
+			System.out.println("n este prim");
+		else
+			System.out.println("n nu este prim");
+		
 		}
 
 }
