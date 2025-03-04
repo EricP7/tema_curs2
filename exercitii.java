@@ -61,6 +61,23 @@ public class exercitii {
 		
 		System.out.println("\n");
 		
+
+		//problema4
+		System.out.println("Problema4:\n");
+		System.out.println("scrie 3 numere: ");
+		int nr1P4 = inputObj.nextInt();
+		int nr2P4 = inputObj.nextInt();
+		int nr3P4 = inputObj.nextInt();
+		if((nr1P4 <= nr2P4) && (nr2P4 <= nr3P4))
+			System.out.println(nr1P4);
+		else if((nr2P4 <= nr1P4) && (nr1P4 <= nr3P4))
+			System.out.println(nr2P4);
+		else
+			System.out.println(nr3P4);
+		
+		System.out.println("\n");
+		
+		
 		
 	}
 
