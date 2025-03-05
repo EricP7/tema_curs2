@@ -132,6 +132,8 @@ public class exercitii {
 		else
 			System.out.println("n nu este prim");
 		
+		System.out.println("\n");
+		
 		
 		//problema10
 		System.out.println("Problema10:\n");
@@ -151,7 +153,16 @@ public class exercitii {
 		
 		System.out.println(n-1);
 		
+		System.out.println("\n");
 		
-		}
+		//problema11
+		System.out.println("Problema10:\n");
+		n = inputObj.nextInt();
+		
+		for(i=1; i<=n; i++)
+			if(n%i == 0)
+				System.out.println(i);
+		
+	}
 
 }
