@@ -132,6 +132,26 @@ public class exercitii {
 		else
 			System.out.println("n nu este prim");
 		
+		
+		//problema10
+		System.out.println("Problema10:\n");
+		n = 1000;
+		m = 0;
+		boolean ok = false;
+		
+		for(n=1000; ok == false; n++) {
+			for(i=2; i*i<=n; i++) {
+				if(n%i == 0)
+					m++;
+			}
+			if(m==0)
+				ok = true;
+			m = 0;
+		}
+		
+		System.out.println(n-1);
+		
+		
 		}
 
 }
