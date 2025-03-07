@@ -240,6 +240,7 @@ public class exercitii {
 		
 		
 		//problema17
+		n = inputObj.nextInt();
 		m = 0;
 		while(n > 0) {
 			if(n%10 > m)
@@ -252,6 +253,7 @@ public class exercitii {
 		
 		
 		//problema18
+		n = inputObj.nextInt();
 		m = 9;
 		while(n > 0) {
 			if(n%10 < m)
@@ -275,6 +277,25 @@ public class exercitii {
 		
 		System.out.println(m);
 		System.out.println("\n");
+		
+		
+		
+		//problema20
+		j = n;
+		m = n%10;
+		n/=10;
+		while(n>0) {
+			m = m * 10 + n%10;
+			n/=10;
+		}
+		if(j == m)
+			System.out.println("este palindrom");
+		else {
+			System.out.println("nu este palindrom");
+		}
+		System.out.println("\n");
+		
+		inputObj.close();
 	}
 
 }
