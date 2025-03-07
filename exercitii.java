@@ -106,6 +106,9 @@ public class exercitii {
 		for(i = 1; i<=n; i++)
 			sum+=i;
 		System.out.println(sum/i);
+		System.out.println("\n");
+
+		
 		
 		
 		//problema8
@@ -116,6 +119,8 @@ public class exercitii {
 		for(i = 1; i<=n; i++)
 			fact*=i;
 		System.out.println(fact);
+		System.out.println("\n");
+
 		
 		
 		//problema9
@@ -163,6 +168,9 @@ public class exercitii {
 		for(i=1; i<=n; i++)
 			if(n%i == 0)
 				System.out.println(i);
+		System.out.println("\n");
+
+		
 		
 		
 		//problema12
@@ -179,6 +187,9 @@ public class exercitii {
 				if(m<=1)
 					System.out.println(i);
 			}
+		System.out.println("\n");
+
+		
 		
 		
 		//problema13
@@ -186,6 +197,9 @@ public class exercitii {
 			for(j=1; j<1000; j+=19) 
 				if(i+j == 1000)
 					System.out.println(i + " + " + j);
+		System.out.println("\n");
+
+		
 		
 		
 		//problema14
@@ -198,6 +212,8 @@ public class exercitii {
 				if(i+j == 1000)
 					System.out.println(i + " + " + j);
 		}
+		System.out.println("\n");
+
 		
 		
 		
@@ -209,6 +225,22 @@ public class exercitii {
 				if(n%9 == 0)
 					System.out.println(n);
 			}
+		System.out.println("\n");
+
+		
+		
+		//problema16
+		n = inputObj.nextInt();
+		while(n > 0) {
+			System.out.println(n%10);
+			n/=10;
+		}
+		System.out.println("\n");
+		
+		
+		
+		
+		
 	}
 
 }
