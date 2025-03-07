@@ -239,6 +239,17 @@ public class exercitii {
 		
 		
 		
+		//problema17
+		while(n > 0) {
+			if(n%10 > m)
+				m = n % 10;
+			n/=10;
+		}
+		System.out.println(m);
+		System.out.println("\n");
+		
+		
+		
 		
 		
 	}
