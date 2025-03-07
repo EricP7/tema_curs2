@@ -193,6 +193,7 @@ public class exercitii {
 		
 		
 		//problema13
+		System.out.println("Problema13:\n");
 		for(i=1; i<1000; i+=17) 
 			for(j=1; j<1000; j+=19) 
 				if(i+j == 1000)
@@ -203,6 +204,7 @@ public class exercitii {
 		
 		
 		//problema14
+		System.out.println("Problema14:\n");
 		for(i=1; i<1000; i+=17) {
 			for(j=1; j<1000; j+=19) {
 				if(i+j == 1000)
@@ -218,6 +220,7 @@ public class exercitii {
 		
 		
 		//problema15
+		System.out.println("Problema15:\n");
 		n=0;
 		for(i=1; i<=9; i++) 
 			for(j=1; j<=9; j++) {
@@ -230,6 +233,7 @@ public class exercitii {
 		
 		
 		//problema16
+		System.out.println("Problema16:\n");
 		n = inputObj.nextInt();
 		while(n > 0) {
 			System.out.println(n%10);
@@ -240,6 +244,7 @@ public class exercitii {
 		
 		
 		//problema17
+		System.out.println("Problema17:\n");
 		n = inputObj.nextInt();
 		m = 0;
 		while(n > 0) {
@@ -253,6 +258,7 @@ public class exercitii {
 		
 		
 		//problema18
+		System.out.println("Problema18:\n");
 		n = inputObj.nextInt();
 		m = 9;
 		while(n > 0) {
@@ -267,6 +273,7 @@ public class exercitii {
 		
 		
 		//problema19
+		System.out.println("Problema19:\n");
 		n = inputObj.nextInt();
 		m = n%10;
 		n/=10;
@@ -281,6 +288,7 @@ public class exercitii {
 		
 		
 		//problema20
+		System.out.println("Problema20:\n");
 		j = n;
 		m = n%10;
 		n/=10;
