@@ -260,6 +260,21 @@ public class exercitii {
 		}
 		System.out.println(m);
 		System.out.println("\n");
+		
+		
+		
+		
+		//problema19
+		n = inputObj.nextInt();
+		m = n%10;
+		n/=10;
+		while(n>0) {
+			m = m * 10 + n%10;
+			n/=10;
+		}
+		
+		System.out.println(m);
+		System.out.println("\n");
 	}
 
 }
